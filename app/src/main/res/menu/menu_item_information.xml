@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Delete (action button) -->
+    <item
+        android:id="@+id/update_action_button"
+        android:title="UPDATE"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/delete_action_button"
+        android:title="DELETE"
+        app:showAsAction="ifRoom"/>
+
+</menu>

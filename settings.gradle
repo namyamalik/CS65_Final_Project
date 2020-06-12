@@ -1,0 +1,2 @@
+rootProject.name='FindItems'
+include ':app'

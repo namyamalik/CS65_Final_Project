@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Application Settings">
+        
+        <Preference
+            app:key="webpage"
+            app:title="Project Webpage"
+            app:summary="https://docs.google.com/document/d/e/2PACX-1vTnrn1KuN-W3juDvBE3QMAxhALyx_5tQxIU1_KZuTt2tms2EJwb3CMmciUziU7G4h_8YtQfkauKpsRj/pub">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://docs.google.com/document/d/e/2PACX-1vTnrn1KuN-W3juDvBE3QMAxhALyx_5tQxIU1_KZuTt2tms2EJwb3CMmciUziU7G4h_8YtQfkauKpsRj/pub"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Account Settings">
+
+        <Preference
+            app:key="logout"
+            app:title="Logout">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

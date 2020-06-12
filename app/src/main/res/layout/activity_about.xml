@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AppPurposeTextViewTitle"
+            android:text="Purpose"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/AppPurposeTextViewContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Locate commonly-misplaced items easily and save time!"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AppFeaturesTextView"
+            android:text="Features"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/AppFeaturesTextViewContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="This app allows the user to save the location of many items in one place by using 1) text, 2) voice and/or 3) taking a picture. The user may also find an item by accessing the saved item data and edit/update the location of saved items at any time."
+            android:textSize="16sp" />
+
+</LinearLayout>
